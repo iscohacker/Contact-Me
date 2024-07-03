@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dell"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="Nosirov Iskandarbek"
+        android:textColor="#2F1B50"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tg"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#A7C3D9"
+        android:text="Telegram kanal"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="5dp"
+        app:strokeColor="#929EA9"
+        app:strokeWidth="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tel"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#A7C3D9"
+        android:text="Qo'ng'iroq qilish"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:cornerRadius="5dp"
+        app:strokeColor="#919DA8"
+        app:strokeWidth="5dp" />
+
+    <TextView
+        android:id="@+id/tg_akk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Dasturchi bilan bog'lanish"
+        android:textColor="#BD7272"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
